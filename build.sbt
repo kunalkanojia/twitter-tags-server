@@ -12,11 +12,9 @@ resolvers += Resolver.jcenterRepo
 libraryDependencies ++= {
   val catsV = "0.9.0"
   val akkaHttpV = "10.0.1"
-  val circeV = "0.7.0"
   val ficusV = "1.4.0"
   val scalaMockV = "3.4.2"
   val catsScalatestV = "2.2.0"
-  val Json4sVersion = "3.5.0"
 
   Seq(
     "com.danielasfregola" %% "twitter4s" % "4.2",
@@ -27,7 +25,6 @@ libraryDependencies ++= {
 
     "com.typesafe.akka" % "akka-slf4j_2.12" % "2.4.16",
     "ch.qos.logback" % "logback-classic" % "1.1.9",
-
 
     "org.scalamock" %% "scalamock-scalatest-support" % scalaMockV % "it,test",
     "com.ironcorelabs" %% "cats-scalatest" % catsScalatestV % "it,test",
