@@ -4,3 +4,4 @@ target/
 libexec/
 log/
 *.test
+project/project/
