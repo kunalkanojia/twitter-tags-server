@@ -4,7 +4,10 @@ version := "0.0.1"
 scalaVersion := "2.12.1"
 scalacOptions := Seq("-unchecked", "-feature", "-deprecation", "-encoding", "utf8")
 
-resolvers += Resolver.jcenterRepo
+resolvers ++= Seq(
+  "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/",
+  Resolver.jcenterRepo
+)
 
 libraryDependencies ++= {
   val catsV = "0.9.0"
