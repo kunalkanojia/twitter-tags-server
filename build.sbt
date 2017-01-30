@@ -1,6 +1,3 @@
-enablePlugins(JavaAppPackaging)
-
-
 name := """twitter-tags-server"""
 organization := "io.github.kunalkanojia"
 version := "0.0.1"
@@ -45,5 +42,3 @@ initialCommands :=
      |import akka.util._
      |import scala.concurrent._
      |import scala.concurrent.duration._""".stripMargin
-
-Revolver.settings
