@@ -1,0 +1,5 @@
+.idea/
+.ensime*
+target/
+libexec/
+log/
