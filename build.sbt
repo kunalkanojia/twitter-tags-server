@@ -14,11 +14,9 @@ libraryDependencies ++= {
   val akkaHttpV = "10.0.1"
   val ficusV = "1.4.0"
   val scalaMockV = "3.4.2"
-  val catsScalatestV = "2.2.0"
 
   Seq(
     "com.danielasfregola" %% "twitter4s" % "4.2",
-    "org.typelevel" %% "cats-core" % catsV,
     "com.iheart" %% "ficus" % ficusV,
 
     "com.typesafe.akka" %% "akka-http" % akkaHttpV,
@@ -27,7 +25,6 @@ libraryDependencies ++= {
     "ch.qos.logback" % "logback-classic" % "1.1.9",
 
     "org.scalamock" %% "scalamock-scalatest-support" % scalaMockV % "it,test",
-    "com.ironcorelabs" %% "cats-scalatest" % catsScalatestV % "it,test",
     "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpV % "it,test"
   )
 }
