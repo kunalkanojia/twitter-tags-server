@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/twitter-tags-server -Dhttp.port=$PORT -Dtwitter.access.key=$twitter.access.key  -Dtwitter.access.secret=$twitter.access.secret -Dtwitter.consumer.key=$twitter.consumer.key -Dtwitter.consumer.secret=$twitter.consumer.secret
+web: target/universal/stage/bin/twitter-tags-server -Dhttp.port=$PORT -Dtwitter.access.key=$twitter.access.key -Dtwitter.access.secret=$twitter.access.secret -Dtwitter.consumer.key=$twitter.consumer.key -Dtwitter.consumer.secret=$twitter.consumer.secret
